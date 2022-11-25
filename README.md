@@ -6,9 +6,23 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 
 
 
-[TOC]
+- [Fake News Detection](#fake-news-detection)
+  - [Context-based FND](#context-based-fnd)
+    - [Text-only Methods](#text-only-methods)
+      - [Supervised Learning](#supervised-learning)
+      - [Domain Adaptation](#domain-adaptation)
+      - [Knowledge base-based](#knowledge-base-based)
+      - [Machine-generated News Detection](#machine-generated-news-detection)
+    - [Evidence-aware Methods](#evidence-aware-methods)
+    - [Multi-modal Methods](#multi-modal-methods)
+  - [Social Media-based FND](#social-media-based-fnd)
+  - [Fact-check & Fact Verification](#fact-check--fact-verification)
+    - [Previously Fact-check](#previously-fact-check)
+    - [New Datasets](#new-datasets)
+  - [Rumor Detection](#rumor-detection)
+    - [Multi-modal Methods](#multi-modal-methods-1)
 
----
+
 
 ### Context-based FND
 
@@ -99,7 +113,7 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 - ACL 2021, <i>Topic-Aware Evidence Reasoning and Stance-Aware Aggregation for Fact Verification</i> [[Paper](https://arxiv.org/pdf/2106.01191.pdf)]
 - ACL 2021, <i>Structurizing Misinformation Stories via Rationalizing Fact-Checks</i> [[Paper](https://aclanthology.org/2021.acl-long.51.pdf)]
 - ACL 2021, <i>Exploring Listwise Evidence Reasoning with T5 for Fact Verification</i> [[Paper](https://aclanthology.org/2021.acl-short.51.pdf)]
-- ACL 2021, <i>Evidence-based Factual Error Correction</u> [[Paper](https://aclanthology.org/2021.acl-long.256.pdf)]
+- ACL 2021, <i>Evidence-based Factual Error Correction</i> [[Paper](https://aclanthology.org/2021.acl-long.256.pdf)]
 - ACL Findings 2021, <i>Strong and Light Baseline Models for Fact-Checking Joint Inference</i> [[Paper](https://aclanthology.org/2021.findings-acl.426.pdf)]
 - ACL Findings 2021, <i>A Multi-Level Attention Model for Evidence-Based Fact Checking</i> [[Paper](https://arxiv.org/pdf/2106.00950.pdf)]
 - CIKM 2021, <i>CrossAug: A Contrastive Data Augmentation Method for Debiasing Fact Verification Models</i> [[Paper](https://arxiv.org/pdf/2109.15107.pdf)]
