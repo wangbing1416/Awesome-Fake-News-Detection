@@ -16,7 +16,7 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 
 ##### Supervised Learning
 
-- ACL 2022, <u>Zoom Out and Observe: News Environment Perception for Fake News Detection</u> [[Paper](https://arxiv.org/pdf/2203.10885.pdf)]
+- ACL 2022, <i>Zoom Out and Observe: News Environment Perception for Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2203.10885.pdf)]
 
 - COLING 2022, <u>A Coarse-to-fine Cascaded Evidence-Distillation Neural Network for Explainable Fake News Detection</u> [[Paper](https://arxiv.org/pdf/2209.14642.pdf)]
 - COLING 2022, <u>Demystifying Neural Fake News via Linguistic Feature-Based Interpretation</u> [[Paper](https://aclanthology.org/2022.coling-1.573.pdf)]
