@@ -17,10 +17,8 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 ##### Supervised Learning
 
 - ACL 2022, <i>Zoom Out and Observe: News Environment Perception for Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2203.10885.pdf)]
-
 - COLING 2022, <i>A Coarse-to-fine Cascaded Evidence-Distillation Neural Network for Explainable Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2209.14642.pdf)]
 - COLING 2022, <i>Demystifying Neural Fake News via Linguistic Feature-Based Interpretation</i> [[Paper](https://aclanthology.org/2022.coling-1.573.pdf)]
-
 - SIGIR 2022, <i>Generalizing to the Future: Mitigating Entity Bias in Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3477495.3531816)]
 - ECML 2021, <i>Early Detection of Fake News with Multi-source Weak Social Supervision</i> [[Paper](http://www.cs.iit.edu/~kshu/files/ecml_pkdd_mwss.pdf)]
 - WWW 2021, <i>Mining Dual Emotion for Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3442381.3450004)]
@@ -39,7 +37,6 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 ##### Knowledge base-based
 
 - IPM 2022, <i>Fake News Detection via Knowledgeable Prompt Learning</i> [[Paper](https://www.sciencedirect.com/science/article/pii/S030645732200139X)]
-
 - AAAI 2021, <i>KAN: Knowledge-aware Attention Network for Fake News Detection</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16080)]
 - ACL 2021, <i>Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge</i> [[Paper](https://aclanthology.org/2021.acl-long.62.pdf)]
 
@@ -47,7 +44,6 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 
 - ACL 2022, <i>Automatic Detection of Entity-Manipulated Text Using Factual Knowledge</i> [[Paper](https://aclanthology.org/2022.acl-short.10.pdf)]
 - COLING 2022, <i>Threat Scenarios and Best Practices for Neural Fake News Detection</i> [[Paper](https://aclanthology.org/2022.coling-1.106.pdf)]
-
 - CL 2020, <i>The Limitations of Stylometry for Detecting Machine-Generated Fake News</i> [[Paper](https://watermark.silverchair.com/coli_a_00380.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAq4wggKqBgkqhkiG9w0BBwagggKbMIIClwIBADCCApAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxz9Xg1SndcEbQDYRAgEQgIICYezKOBSVkeblU0UiMgQBFTxwWxvVxyHMsoZNjebxXy_s7hVI8uyU1oxQJ0CFP1zIZd65qql15yVtv5CEq3RHl7TKSCYtFPWhMF4t-1jQaugAnyONxxeNuzPqHSrswxpjDG8HveRLQUiwoftHtfwjc0xUKG7pgHOpjXTWslc2XcQLv4HZ_krec_fLwygsTymj7jkzhn2v2aZdrpNXXzInEajuZA6bNeVhOfUmH2RaKMeRtrvVgXz6hiGn-zvZq2bcBWdHRueLpJY2vakrzJnQf42CghuRVvzxP2Hj-qfBfb08YnQI3lwmbERyn4GiKxAfQzyEoX_tkY8nqwpOm8t5wA-tTHW_AYKXQsoQMp1j2Q8wShdDRVQMnGyWLgxNR5WOJTgTvmcnr6D1tQTJhd_ilxUPCvNd8RnD4fU_7jWXeeEDtb5hQi45zKVUp9SropLnacTuOiQN4xY1saSH8EQCdNHJ79X9QZ2Ii7NGZrVm4ZCVcpN4DqHgR3WFeHPKZrTyT_6fluW-Mc69SpuIhu7nRLgavhAbyC8UAHS_Krk6vhch1GWIMPXeWyfo66jNJ_jZUUY8lEnoNfsfuyARpqb9x0IEseo_5WeHpR2SrQpWGlWxWBO8Twwi0nJgp9nlv4Ig7a4LAG66UXxRbzQs0kXENqOJM_qRVCIAKF_JDgKhXnk8Xoq15o-3fTdUeYlv-7mS_4XpA0f8l9nVRmq2GMwiNe41JuA1yV5nggN91T6bEC7mq9Vnc9x9B6uXji2tOT6TD7cmh-2XQl7CIbBvRfyLJpieHR0vFBydp9mnHXVuTT8v1Q)]
 
 #### Evidence-aware Methods
@@ -98,7 +94,6 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 - AAAI 2022, <i>LOREN: Logic-Regularized Reasoning for Interpretable Fact Verification</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/21291)]
 - SIGIR 2022, <i>GERE: Generative Evidence Retrieval for Fact Verification</i> [[Paper](https://arxiv.org/pdf/2204.05511.pdf)]
 - WWW 2022, <i>EvidenceNet: Evidence Fusion Network for Fact Verification</i> [[Paper](https://dl.acm.org/doi/abs/10.1145/3485447.3512135)]
-
 - ACL 2021, <i>Zero-shot Fact Verification by Claim Generation</i> [[Paper](https://arxiv.org/pdf/2105.14682.pdf)]
 - ACL 2021, <i>Unified Dual-view Cognitive Model for Interpretable Claim Verification</i> [[Paper](https://arxiv.org/pdf/2105.09567.pdf)]
 - ACL 2021, <i>Topic-Aware Evidence Reasoning and Stance-Aware Aggregation for Fact Verification</i> [[Paper](https://arxiv.org/pdf/2106.01191.pdf)]
@@ -115,7 +110,6 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 #### Previously Fact-check
 
 - NAACL 2022, <i>The Role of Context in Detecting Previously Fact-Checked Claims</i> [[Paper](https://arxiv.org/pdf/2104.07423.pdf)]
-
 - ACL 2021, <i>Article Reranking by Memory-Enhanced Key Sentence Matching for Detecting Previously Fact-Checked Claims</i> [[Paper](https://arxiv.org/pdf/2112.10322.pdf)]
 - ACL 2021, <i>Claim Matching Beyond English to Scale Global Fact-Checking</i> [[Paper](https://arxiv.org/pdf/2106.00853.pdf)]
 - ACL 2020, <i>That is a Known Lie: Detecting Previously Fact-Checked Claims</i> [[Paper](https://arxiv.org/pdf/2005.06058.pdf)]
@@ -136,7 +130,6 @@ Coming soon...
 #### Multi-modal Methods
 
 - EMNLP 2021, <i>Inconsistency Matters: A Knowledge-guided Dual-inconsistency Network for Multi-modal Rumor Detection</i> [[Paper](https://aclanthology.org/2021.findings-emnlp.122.pdf)]
-
 - MM 2019, <i>Multi-modal Knowledge-aware Event Memory Network for Social Media Rumor Detection</i> [[Paper](https://dl.acm.org/doi/abs/10.1145/3343031.3350850)]
 - MM 2017, <i>Multimodal Fusion with Recurrent Neural Networks for Rumor Detection on Microblogs</i> [[Paper](https://dl.acm.org/doi/abs/10.1145/3123266.3123454)]
 
