@@ -11,7 +11,7 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
     - [Text-only Methods](#text-only-methods)
       - [Supervised Learning](#supervised-learning)
       - [Domain Adaptation](#domain-adaptation)
-      - [Knowledge base-based](#knowledge-base-based)
+      - [Knowledge Base-based](#knowledge-base-based)
       - [Machine-generated News Detection](#machine-generated-news-detection)
     - [Evidence-aware Methods](#evidence-aware-methods)
     - [Multi-modal Methods](#multi-modal-methods)
@@ -48,7 +48,7 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 - CIKM 2021, <i>MDFEND: Multi-domain Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2201.00987.pdf)]
 - ICONIP 2021, <i>DAFD: Domain Adaptation Framework for Fake News Detection</i> [[Paper](http://www.cs.iit.edu/~kshu/files/DAFD_ICONIP.pdf)]
 
-##### Knowledge base-based
+##### Knowledge Base-based
 
 - IPM 2022, <i>Fake News Detection via Knowledgeable Prompt Learning</i> [[Paper](https://www.sciencedirect.com/science/article/pii/S030645732200139X)]
 - AAAI 2021, <i>KAN: Knowledge-aware Attention Network for Fake News Detection</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16080)]
