@@ -1,9 +1,6 @@
-
-
 ## Fake News Detection
 
 An awesome paper list of fake news detection (FND). FND methods are divided into context-based and social media-based methods.
-
 
 
 - [Fake News Detection](#fake-news-detection)
@@ -11,17 +8,23 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
     - [Text-only Methods](#text-only-methods)
       - [Supervised Learning](#supervised-learning)
       - [Domain Adaptation](#domain-adaptation)
-      - [Knowledge Base-based](#knowledge-base-based)
+      - [Knowledge base-based](#knowledge-base-based)
       - [Machine-generated News Detection](#machine-generated-news-detection)
     - [Evidence-aware Methods](#evidence-aware-methods)
     - [Multi-modal Methods](#multi-modal-methods)
   - [Social Media-based FND](#social-media-based-fnd)
   - [Fact-check & Fact Verification](#fact-check--fact-verification)
+    - [Supervised Methods](#supervised-methods)
     - [Previously Fact-check](#previously-fact-check)
     - [New Datasets](#new-datasets)
   - [Rumor Detection](#rumor-detection)
+    - [Supervised Methods](#supervised-methods-1)
+      - [with Unreliable Propagations](#with-unreliable-propagations)
+      - [with Temporal Features](#with-temporal-features)
+      - [with User Profile](#with-user-profile)
+      - [with Data Augmentation](#with-data-augmentation)
     - [Multi-modal Methods](#multi-modal-methods-1)
-
+    - [Joint Stance & Rumor Detection](#joint-stance--rumor-detection)
 
 
 ### Context-based FND
@@ -48,7 +51,7 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 - CIKM 2021, <i>MDFEND: Multi-domain Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2201.00987.pdf)]
 - ICONIP 2021, <i>DAFD: Domain Adaptation Framework for Fake News Detection</i> [[Paper](http://www.cs.iit.edu/~kshu/files/DAFD_ICONIP.pdf)]
 
-##### Knowledge Base-based
+##### Knowledge base-based
 
 - IPM 2022, <i>Fake News Detection via Knowledgeable Prompt Learning</i> [[Paper](https://www.sciencedirect.com/science/article/pii/S030645732200139X)]
 - AAAI 2021, <i>KAN: Knowledge-aware Attention Network for Fake News Detection</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16080)]
@@ -96,13 +99,15 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 - COLING 2022, <i>A Unified Propagation Forest-based Framework for Fake News Detection</i> [[Paper](https://aclanthology.org/2022.coling-1.244.pdf)]
 - COLING 2022, <i>Topology imbalance and Relation inauthenticity aware Hierarchical Graph Attention Networks for Fake News Detection</i> [[Paper](https://aclanthology.org/2022.coling-1.415.pdf)]
 - KDD 2022, <i>Reinforcement Subgraph Reasoning for Fake News Detection</i> [[Paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/05/KDD2022_FakeNewsDetection_camera_ready.pdf)]
-- WWW 2022, <i>Divide-and-Conquer: Post-User Interaction Network for Fake News Detection on Social Media</i> [[Paper](https://www.atailab.cn/seminar2022fall/pdf/2022_WWW_Divide-and-Conquer_Post-User%20Interaction%20Network%20for%20Fake%20News%20Detection%20on%20Social%20Media.pdf)]
+- WWW 2022, <i>Divide-and-Conquer: Post-User Interaction Network for Fake News Detection on Social Media</i> [[Paper](https://www.atailab.cn/seminar2022fall/pdf/2022_WWW_Divide-and-Conquer_Post-User Interaction Network for Fake News Detection on Social Media.pdf)]
 - KDD 2021, <i>Causal Understanding of Fake News Dissemination on Social Media</i> [[Paper](https://arxiv.org/pdf/2010.10580.pdf)]
 - SIGIR 2021, <i>User Preference-aware Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3462990)]
 
 ---
 
 ### Fact-check & Fact Verification
+
+#### Supervised Methods
 
 - AAAI 2022, <i>Synthetic Disinformation Attacks on Automated Fact Verification Systems</i> [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-11986.DuY.pdf)]
 - AAAI 2022, <i>LOREN: Logic-Regularized Reasoning for Interpretable Fact Verification</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/21291)]
@@ -139,11 +144,53 @@ An awesome paper list of fake news detection (FND). FND methods are divided into
 
 ### Rumor Detection
 
-Coming soon...
+#### Supervised Methods
+
+- AAAI 2022, *DDGCN: Dual Dynamic Graph Convolutional Networks for Rumor Detection on Social Media* [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-6370.SunM.pdf)]
+- COLING 2022, *A Progressive Framework for Role-Aware Rumor Resolution* [[Paper](https://aclanthology.org/2022.coling-1.242.pdf)]
+- COLING 2022, *Social Bot-Aware Graph Neural Network for Early Rumor Detection* [[Paper](https://aclanthology.org/2022.coling-1.580.pdf)]
+- NAACL 2022, *Detect Rumors in Microblog Posts for Low-Resource Domains via Adversarial Contrastive Learning* [[Paper](https://arxiv.org/pdf/2204.08143.pdf)]
+- WWW 2022, Rumor Detection on Social Media with Graph Adversarial Contrastive Learning [[Paper](https://web.archive.org/web/20220505023214id_/https://dl.acm.org/doi/pdf/10.1145/3485447.3511999)]
+- WWW 2022, Detecting False Rumors from Retweet Dynamics on Social Media [[Paper](https://arxiv.org/pdf/2201.13103.pdf)]
+- ACL Findings 2021, *Adversary-Aware Rumor Detection* [[Paper](https://aclanthology.org/2021.findings-acl.118.pdf)]
+- ACL Findings 2021, *Meet The Truth: Leverage Objective Facts and Subjective Views for Interpretable Rumor Detection* [[Paper](https://aclanthology.org/2021.findings-acl.63.pdf)]
+- EMNLP 2021, *Rumor Detection on Twitter with Claim-Guided Hierarchical Graph Attention Networks* [[Paper](https://aclanthology.org/2021.emnlp-main.786.pdf?ref=https://githubhelp.com)]
+- EMNLP 2021, *STANKER: Stacking Network based on Level-grained Attention-masked BERT for Rumor Detection on Social Media* [[Paper](https://aclanthology.org/2021.emnlp-main.269.pdf)]
+- AAAI 2020, *Rumor Detection on Social Media with Bi-Directional Graph Convolutional Networks* [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/5393)]
+- COLING 2020, *Debunking Rumors on Twitter with Tree Transformer* [[Paper](https://aclanthology.org/2020.coling-main.476.pdf?ref=https://githubhelp.com)]
+- ACL 2018, *Rumor Detection on Twitter with Tree-structured Recursive Neural Networks* [[Paper](https://aclanthology.org/P18-1184.pdf)]
+
+##### with Unreliable Propagations
+
+- ACL 2021, *Towards Propagation Uncertainty: Edge-enhanced Bayesian Graph Convolutional Networks for Rumor Detection* [[Paper](https://aclanthology.org/2021.acl-long.297.pdf)]
+- AAAI 2020, *Interpretable Rumor Detection in Microblogs by Attending to User Interactions* [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/6405)]
+
+##### with Temporal Features
+
+- COLING 2022, *Continually Detection, Rapidly React: Unseen Rumors Detection based on Continual Prompt-Tuning* [[Paper](https://aclanthology.org/2022.coling-1.268.pdf)]
+- NAACL 2022, *Early Rumor Detection Using Neural Hawkes Process with a New Benchmark Dataset* [[Paper](https://aclanthology.org/2022.naacl-main.302.pdf)]
+- WWW 2021, *Rumor Detection with Field of Linear and Non-Linear Propagation* [[Paper](https://dl.acm.org/doi/abs/10.1145/3442381.3450016)]
+- EMNLP 2020, *A State-independent and Time-evolving Network for Early Rumor Detection in Social Media* [[Paper](https://aclanthology.org/2020.emnlp-main.727.pdf)]
+
+##### with User Profile
+
+- NAACL 2022, *DUCK: Rumour Detection on Social Media by Modelling User and Comment Propagation Networks* [[Paper](https://aclanthology.org/2022.naacl-main.364.pdf)]
+
+##### with Data Augmentation
+
+- SIGIR ShortPaper 2021, *Rumor Detection on Social Media with Event Augmentations* [[Paper](https://www.researchgate.net/profile/Zhenyu-He-5/publication/353188656_Rumor_Detection_on_Social_Media_with_Event_Augmentations/links/62e8f9a83c0ea87887765e3d/Rumor-Detection-on-Social-Media-with-Event-Augmentations.pdf)]
+- ICLR 2019, *Data Augmentation for Rumor Detection using Context-sensitive Neural Language Model with Large-scale Credibility* [[Paper](https://openreview.net/pdf?id=SyxCysRNdV)]
 
 #### Multi-modal Methods
 
+- IJCAI 2022, *MFAN: Multi-modal Feature-enhanced Attention Networks for Rumor Detection* [[Paper](https://www.ijcai.org/proceedings/2022/0335.pdf)]
 - EMNLP 2021, <i>Inconsistency Matters: A Knowledge-guided Dual-inconsistency Network for Multi-modal Rumor Detection</i> [[Paper](https://aclanthology.org/2021.findings-emnlp.122.pdf)]
 - MM 2019, <i>Multi-modal Knowledge-aware Event Memory Network for Social Media Rumor Detection</i> [[Paper](https://dl.acm.org/doi/abs/10.1145/3343031.3350850)]
 - MM 2017, <i>Multimodal Fusion with Recurrent Neural Networks for Rumor Detection on Microblogs</i> [[Paper](https://dl.acm.org/doi/abs/10.1145/3123266.3123454)]
 
+#### Joint Stance & Rumor Detection
+
+- SIGIR 2022, *A Weakly Supervised Propagation Model for Rumor Verification and Stance Detection with Multiple Instance Learning* [[Paper](https://arxiv.org/pdf/2204.02626.pdf)]
+- ACL ShortPaper 2019, *Rumor Detection By Exploiting User Credibility Information,  Attention and Multi-task Learning* [[Paper](https://aclanthology.org/P19-1113.pdf)]
+- COLING 2018, *All-in-one: Multi-task Learning for Rumour Verification* [[Paper](https://arxiv.org/pdf/1806.03713.pdf)]
+- WWW 2018, *Detect Rumor and Stance Jointly by Neural Multi-task Learning* [[Paper](https://dl.acm.org/doi/pdf/10.1145/3184558.3188729)]
