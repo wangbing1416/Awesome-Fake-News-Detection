@@ -100,7 +100,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 - COLING 2022, <i>A Unified Propagation Forest-based Framework for Fake News Detection</i> [[Paper](https://aclanthology.org/2022.coling-1.244.pdf)]
 - COLING 2022, <i>Topology imbalance and Relation inauthenticity aware Hierarchical Graph Attention Networks for Fake News Detection</i> [[Paper](https://aclanthology.org/2022.coling-1.415.pdf)]
 - KDD 2022, <i>Reinforcement Subgraph Reasoning for Fake News Detection</i> [[Paper](https://www.microsoft.com/en-us/research/uploads/prod/2022/05/KDD2022_FakeNewsDetection_camera_ready.pdf)]
-- WWW 2022, <i>Divide-and-Conquer: Post-User Interaction Network for Fake News Detection on Social Media</i> [[Paper](https://www.atailab.cn/seminar2022fall/pdf/2022_WWW_Divide-and-Conquer_Post-User Interaction Network for Fake News Detection on Social Media.pdf)]
+- WWW 2022, <i>Divide-and-Conquer: Post-User Interaction Network for Fake News Detection on Social Media</i> [[Paper](https://www.atailab.cn/seminar2022fall/pdf/2022_WWW_Divide-and-Conquer_Post-User%20Interaction%20Network%20for%20Fake%20News%20Detection%20on%20Social%20Media.pdf)]
 - KDD 2021, <i>Causal Understanding of Fake News Dissemination on Social Media</i> [[Paper](https://arxiv.org/pdf/2010.10580.pdf)]
 - SIGIR 2021, <i>User Preference-aware Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3404835.3462990)]
 
