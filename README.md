@@ -1,6 +1,6 @@
 ## Fake News Detection
 
-An awesome paper list of fake news detection (FND) and Rumor Detection. FND methods are divided into context-based and social media-based methods.
+An awesome paper list of fake news detection (FND) and Rumor Detection with ![](https://img.shields.io/badge/101-red) papers. FND methods are divided into context-based and social media-based methods.  
 Moreover, this is a personal list, if you have some additional literature, which need be supplemented, you can feel free to drop an email (wangbing1416@gmail.com) to me!
 
 
