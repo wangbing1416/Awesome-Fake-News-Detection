@@ -204,24 +204,24 @@ Moreover, this is a personal list, if you have some additional literature, which
 ## Summarizations of FND
 
 #### Social Media-based Fake News Detection and Rumor Detection
-1 **Interpretability**
-2 **Emergency** -> low-resource setting, event-invariant features, temporal information
-3 **Select bias / social homophily** -> edge augmentation
-4 **User profile** -> user embeddings, historical posts
-5 **Unreliable connections** -> graph reconstraction, edge reweighting
-6 **Temporal information**
-7 **Robustness** -> augmentation, adversarial learning
+1 **Interpretability**  
+2 **Emergency** -> low-resource setting, event-invariant features, temporal information  
+3 **Select bias / social homophily** -> edge augmentation  
+4 **User profile** -> user embeddings, historical posts  
+5 **Unreliable connections** -> graph reconstraction, edge reweighting  
+6 **Temporal information**  
+7 **Robustness** -> augmentation, adversarial learning  
 8 **Stance detection**
 
 #### Context-based Fake News Detection
-1 **Interpretability**
-2 **Emergency**
-3 **Dynamicity** (entity bias)
-4 **Domain adaptation** -> pre-training, new datasets, adversarial learning, mixture of experts
-5 **Feature engineering** -> emotion, writing style
-6 **Semi-supervised Learning**
-7 **Robustness** -> adversarial attack
-8 **Evidence-based FND**
+1 **Interpretability**  
+2 **Emergency**  
+3 **Dynamicity** (entity bias)  
+4 **Domain adaptation** -> pre-training, new datasets, adversarial learning, mixture of experts  
+5 **Feature engineering** -> emotion, writing style  
+6 **Semi-supervised Learning**  
+7 **Robustness** -> adversarial attack  
+8 **Evidence-based FND**  
 9 **Multi-modal FND (ambiguity, alignment, emergency)**
 
 ---
