@@ -1,15 +1,16 @@
+
+
 ## Fake News Detection
 
 An awesome paper list of **fake news detection (FND)** and **rumor detection** with ![](https://img.shields.io/badge/101-red) papers. FND methods are divided into context-based and social media-based methods.  
 Moreover, this is a personal list, if you have some additional literature, which need be supplemented, you can feel free to drop an email (wangbing1416@gmail.com) to me!
-
 
 - [Fake News Detection](#fake-news-detection)
   - [Context-based FND](#context-based-fnd)
     - [Text-only Methods](#text-only-methods)
       - [Supervised Learning](#supervised-learning)
       - [Domain Adaptation](#domain-adaptation)
-      - [Knowledge Base-based](#knowledge-base-based)
+      - [Knowledge base-based](#knowledge-base-based)
       - [Machine-generated News Detection](#machine-generated-news-detection)
     - [Evidence-aware Methods](#evidence-aware-methods)
     - [Multi-modal Methods](#multi-modal-methods)
@@ -26,6 +27,10 @@ Moreover, this is a personal list, if you have some additional literature, which
       - [with Data Augmentation](#with-data-augmentation)
     - [Multi-modal Methods](#multi-modal-methods-1)
     - [Joint Stance & Rumor Detection](#joint-stance--rumor-detection)
+- [Summarizations of FND](#summarizations-of-fnd)
+    - [Social Media-based Fake News Detection and Rumor Detection](#social-media-based-fake-news-detection-and-rumor-detection)
+    - [Context-based Fake News Detection](#context-based-fake-news-detection)
+- [Famous Chinese Researchers in FND](#famous-chinese-researchers-in-fnd)
 
 
 ### Context-based FND
@@ -52,7 +57,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 - CIKM 2021, <i>MDFEND: Multi-domain Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2201.00987.pdf)]
 - ICONIP 2021, <i>DAFD: Domain Adaptation Framework for Fake News Detection</i> [[Paper](http://www.cs.iit.edu/~kshu/files/DAFD_ICONIP.pdf)]
 
-##### Knowledge Base-based
+##### Knowledge base-based
 
 - IPM 2022, <i>Fake News Detection via Knowledgeable Prompt Learning</i> [[Paper](https://www.sciencedirect.com/science/article/pii/S030645732200139X)]
 - AAAI 2021, <i>KAN: Knowledge-aware Attention Network for Fake News Detection</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16080)]
@@ -87,8 +92,6 @@ Moreover, this is a personal list, if you have some additional literature, which
 - PAKDD 2020, <i>SAFE: Similarity-Aware Multi-Modal Fake News Detection</i> [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-47436-2_27)]
 - WWW 2019, <i>MVAE: Multimodal Variational Autoencoder for Fake News Detection</i> [[Paper](https://dl.acm.org/doi/abs/10.1145/3308558.3313552)]
 - KDD 2018, <i>EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3219903)]
-
-
 
 ---
 
@@ -195,3 +198,37 @@ Moreover, this is a personal list, if you have some additional literature, which
 - ACL ShortPaper 2019, *Rumor Detection By Exploiting User Credibility Information,  Attention and Multi-task Learning* [[Paper](https://aclanthology.org/P19-1113.pdf)]
 - COLING 2018, *All-in-one: Multi-task Learning for Rumour Verification* [[Paper](https://arxiv.org/pdf/1806.03713.pdf)]
 - WWW 2018, *Detect Rumor and Stance Jointly by Neural Multi-task Learning* [[Paper](https://dl.acm.org/doi/pdf/10.1145/3184558.3188729)]
+
+---
+
+## Summarizations of FND
+
+#### Social Media-based Fake News Detection and Rumor Detection
+1 **Interpretability**
+2 **Emergency** -> low-resource setting, event-invariant features, temporal information
+3 **Select bias / social homophily** -> edge augmentation
+4 **User profile** -> user embeddings, historical posts
+5 **Unreliable connections** -> graph reconstraction, edge reweighting
+6 **Temporal information**
+7 **Robustness** -> augmentation, adversarial learning
+8 **Stance detection**
+
+#### Context-based Fake News Detection
+1 **Interpretability**
+2 **Emergency**
+3 **Dynamicity** (entity bias)
+4 **Domain adaptation** -> pre-training, new datasets, adversarial learning, mixture of experts
+5 **Feature engineering** -> emotion, writing style
+6 **Semi-supervised Learning**
+7 **Robustness** -> adversarial attack
+8 **Evidence-based FND**
+9 **Multi-modal FND (ambiguity, alignment, emergency)**
+
+---
+
+## Famous Chinese Researchers in FND
+- [Juan Cao](https://people.ucas.ac.cn/~caojuan), Institute of Computing Technology, Chinese Academy of Sciences
+- [Jing Ma](https://majingcuhk.github.io/), Department of Computer Science, Hong Kong Baptist University
+- [Huan Liu](https://www.public.asu.edu/~huanliu/), Ira A. Fulton Schools of Engineering, Arizona State University
+- [Kai Shu](http://www.cs.iit.edu/~kshu/index.html), Department of Computer Science, Illinois Institute of Technology
+- [Songlin Hu](https://people.ucas.edu.cn/~husonglin), Institute of Information Engineering, Chinese Academy of Sciences
