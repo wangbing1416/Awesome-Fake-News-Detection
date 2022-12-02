@@ -216,7 +216,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 #### Context-based Fake News Detection
 1 **Interpretability**  
 2 **Emergency**  
-3 **Dynamicity** (entity bias)  
+3 **Dynamicity (entity bias)**  
 4 **Domain adaptation** -> pre-training, new datasets, adversarial learning, mixture of experts  
 5 **Feature engineering** -> emotion, writing style  
 6 **Semi-supervised Learning**  
