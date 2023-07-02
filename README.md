@@ -38,7 +38,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 #### Text-only Methods
 
 ##### Supervised Learning
-
+- ACL 2023, <i>Learn over Past, Evolve for Future: Forecasting Temporal Trends for Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2306.14728)]
 - ACL 2022, <i>Zoom Out and Observe: News Environment Perception for Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2203.10885.pdf)]
 - COLING 2022, <i>A Coarse-to-fine Cascaded Evidence-Distillation Neural Network for Explainable Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2209.14642.pdf)]
 - COLING 2022, <i>Demystifying Neural Fake News via Linguistic Feature-Based Interpretation</i> [[Paper](https://aclanthology.org/2022.coling-1.573.pdf)]
@@ -77,7 +77,10 @@ Moreover, this is a personal list, if you have some additional literature, which
 - CIKM 2021, <i>Integrating Pattern- and Fact-based Fake News Detection via Model Preference Learning</i> [[Paper](https://arxiv.org/pdf/2109.11333.pdf)]
 
 #### Multi-modal Methods
-
+- AAAI 2023, <i>Bootstrapping Multi-view Representations for Fake News Detection</i> [[Paper](https://openreview.net/pdf?id=tS2AkSDLYZ)]
+- AAAI 2023, <i>FakeSV: A Multimodal Benchmark with Rich Social Context for Fake News Detection on Short Video Platforms</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/download/26689/26461)]
+- AAAI 2023, <i>COSMOS: Catching Out-of-Context Misinformation with Self-Supervised Learning</i> [[Paper](https://arxiv.org/pdf/2101.06278)]
+- TKDE 2023, <i>Causal Inference for Leveraging Image-text Matching Bias in Multi-modal Fake News Detection</i> [[Paper](https://ieeexplore.ieee.org/abstract/document/9996587/)]
 - WWW 2022, <i>Cross-modal Ambiguity Learning for Multimodal Fake News Detection</i> [[Paper](https://web.archive.org/web/20220428130656id_/https://dl.acm.org/doi/pdf/10.1145/3485447.3511968)]
 - WWW 2022, <i>A Duo-generative Approach to Explainable Multimodal COVID-19 Misinformation Detection</i> [[Paper](https://web.archive.org/web/20220503034453id_/https://dl.acm.org/doi/pdf/10.1145/3485447.3512257)]
 - ACL 2021, <i>InfoSurgeon: Cross-Media Fine-grained Information Consistency Checking for Fake News Detection</i> [[Paper](https://aclanthology.org/2021.acl-long.133.pdf)]
@@ -149,7 +152,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 ### Rumor Detection
 
 #### Supervised Methods
-
+- WWW 2023, *Attacking Fake News Detectors via Manipulating News Social Engagement* [[Paper](https://arxiv.org/pdf/2302.07363)]
 - AAAI 2022, *DDGCN: Dual Dynamic Graph Convolutional Networks for Rumor Detection on Social Media* [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-6370.SunM.pdf)]
 - COLING 2022, *A Progressive Framework for Role-Aware Rumor Resolution* [[Paper](https://aclanthology.org/2022.coling-1.242.pdf)]
 - COLING 2022, *Social Bot-Aware Graph Neural Network for Early Rumor Detection* [[Paper](https://aclanthology.org/2022.coling-1.580.pdf)]
