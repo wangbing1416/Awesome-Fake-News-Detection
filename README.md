@@ -2,7 +2,7 @@
 
 ## Fake News Detection
 
-An awesome paper list of **fake news detection (FND)** and **rumor detection** with ![](https://img.shields.io/badge/114-red) papers. FND methods are divided into context-based and social media-based methods.  
+An awesome paper list of **fake news detection (FND)** and **rumor detection** with ![](https://img.shields.io/badge/117-red) papers. FND methods are divided into context-based and social media-based methods.  
 Moreover, this is a personal list, if you have some additional literature, which need to be supplemented, you can feel free to drop an email (wangbing1416@gmail.com) to me!
 
 - [Fake News Detection](#fake-news-detection)
@@ -122,6 +122,9 @@ Moreover, this is a personal list, if you have some additional literature, which
 
 #### Supervised Methods
 
+- ACL 2023, <i>DECKER: Double Check with Heterogeneous Knowledge for Commonsense Fact Verification</i> [[Paper](https://aclanthology.org/2023.findings-acl.752)]
+- ACL 2023, <i>Counterfactual Debiasing for Fact Verification</i> [[Paper](https://aclanthology.org/2023.acl-long.374.pdf)]
+- ACL 2023, <i>Fact-Checking Complex Claims with Program-Guided Reasoning</i> [[Paper](https://arxiv.org/pdf/2305.12744)]
 - AAAI 2022, <i>Synthetic Disinformation Attacks on Automated Fact Verification Systems</i> [[Paper](https://www.aaai.org/AAAI22Papers/AAAI-11986.DuY.pdf)]
 - AAAI 2022, <i>LOREN: Logic-Regularized Reasoning for Interpretable Fact Verification</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/21291)]
 - SIGIR 2022, <i>GERE: Generative Evidence Retrieval for Fact Verification</i> [[Paper](https://arxiv.org/pdf/2204.05511.pdf)]
