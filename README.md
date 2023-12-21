@@ -2,7 +2,7 @@
 
 ## Fake News Detection
 
-An awesome paper list of **fake news detection (FND)** and **rumor detection** with ![](https://img.shields.io/badge/117-red) papers. FND methods are divided into context-based and social media-based methods.  
+An awesome paper list of **fake news detection (FND)** and **rumor detection** with ![](https://img.shields.io/badge/126-red) papers. FND methods are divided into context-based and social media-based methods.  
 Moreover, this is a personal list, if you have some additional literature, which need to be supplemented, you can feel free to drop an email (wangbing1416@gmail.com) to me!
 
 - [Fake News Detection](#fake-news-detection)
@@ -73,12 +73,16 @@ Moreover, this is a personal list, if you have some additional literature, which
 
 #### Evidence-aware Methods
 
+- KDD 2023, <i>MUSER: A MUlti-Step Evidence Retrieval Enhancement Framework for Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599873)]
 - SIGIR 2022, <i>Bias Mitigation for Evidence-aware Fake News Detection by Causal Intervention</i> [[Paper](https://web.archive.org/web/20220712063219id_/https://dl.acm.org/doi/pdf/10.1145/3477495.3531850)]
 - WWW 2022, <i>Evidence-aware Fake News Detection with Graph Neural Networks</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3485447.3512122)]
 - ACL 2021, <i>Automatic Fake News Detection: Are Models Learning to Reason?</i> [[Paper](https://arxiv.org/pdf/2105.07698.pdf)]
 - CIKM 2021, <i>Integrating Pattern-and Fact-based Fake News Detection via Model Preference Learning</i> [[Paper](https://arxiv.org/pdf/2109.11333.pdf)]
 
 #### Multi-modal Methods
+- ACL 2023, <i>Two Heads Are Better Than One: Improving Fake News Video Detection by Correlating with Neighbors</i> [[Paper](https://arxiv.org/pdf/2306.05241)]
+- AAAI 2023, <i>FakeSV: A Multimodal Benchmark with Rich Social Context for Fake News Detection on Short Video Platforms</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/download/26689/26461)]
+- MM 2023, <i>Combating Online Misinformation Videos: Characterization, Detection, and Future Directions</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3581783.3612426)]
 - ACL 2023, <i>Causal Intervention and Counterfactual Reasoning for Multi-modal Fake News Detection</i> [[Paper](https://aclanthology.org/2023.acl-long.37.pdf)]
 - AAAI 2023, <i>Bootstrapping Multi-view Representations for Fake News Detection</i> [[Paper](https://openreview.net/pdf?id=tS2AkSDLYZ)]
 - AAAI 2023, <i>See How You Read? Multi-Reading Habits Fusion Reasoning for Multi-Modal Fake News Detection</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/download/26609/26381)]
@@ -90,6 +94,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 - ACL 2021, <i>InfoSurgeon: Cross-Media Fine-grained Information Consistency Checking for Fake News Detection</i> [[Paper](https://aclanthology.org/2021.acl-long.133.pdf)]
 - ACL 2021, <i>Multimodal Fusion with Co-Attention Networks for Fake News Detection</i> [[Paper](https://aclanthology.org/2021.findings-acl.226.pdf)]
 - ACL 2021, <i>Edited Media Understanding Frames: Reasoning About the Intents and Implications of Visual Disinformation</i> [[Paper](https://aclanthology.org/2021.acl-long.158.pdf)]
+- CIKM 2021, <i>Using Topic Modeling and Adversarial Neural Networks for Fake News Video Detection</i> [[Paper](https://dl.acm.org/doi/abs/10.1145/3459637.3482212)]
 - CIKM 2021, <i>Supervised Contrastive Learning for Multimodal Unreliable News Detection in COVID-19 Pandemic</i> [[Paper](https://arxiv.org/ftp/arxiv/papers/2109/2109.01850.pdf)]
 - KDD 2021, <i>Multimodal Emergent Fake News Detection via Meta Neural Process Networks</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3447548.3467153)]
 - IPM 2021, <i>Detecting Fake News by Exploring the Consistency of Multimodal Data</i> [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0306457321001060)]
@@ -122,7 +127,8 @@ Moreover, this is a personal list, if you have some additional literature, which
 ### Fact-check & Fact Verification
 
 #### Supervised Methods
-
+- AACL 2023, <i>Towards LLM-based Fact Verification on News Claims with a Hierarchical Step-by-Step Prompting Method</i> [[Paper](https://arxiv.org/pdf/2310.00305)]
+- SIGIR 2023, <i>Read it Twice: Towards Faithfully Interpretable Fact Verification by Revisiting Evidence</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3539618.3592049)]
 - ACL 2023, <i>DECKER: Double Check with Heterogeneous Knowledge for Commonsense Fact Verification</i> [[Paper](https://aclanthology.org/2023.findings-acl.752)]
 - ACL 2023, <i>Counterfactual Debiasing for Fact Verification</i> [[Paper](https://aclanthology.org/2023.acl-long.374.pdf)]
 - ACL 2023, <i>Fact-Checking Complex Claims with Program-Guided Reasoning</i> [[Paper](https://arxiv.org/pdf/2305.12744)]
@@ -144,7 +150,9 @@ Moreover, this is a personal list, if you have some additional literature, which
 - NAACL 2021, <i>How Robust are Fact Checking Systems on Colloquial Claims?</i> [[Paper](https://aclanthology.org/2021.naacl-main.121.pdf)]
 
 #### Multi-hop Fact Verification
-
+- AAAI 2023, <i>Exploring Faithful Rationale for Multi-Hop Fact Verification via Salience-Aware Graph Learning</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/26591/26363)]
+- EMNLP 2023, <i>EXPLAIN, EDIT, GENERATE: Rationale-Sensitive Counterfactual Data Augmentation for Multi-hop Fact Verification</i> [[Paper](https://aclanthology.org/2023.emnlp-main.826.pdf)]
+  
 #### Previously Fact-check
 
 - NAACL 2022, <i>The Role of Context in Detecting Previously Fact-Checked Claims</i> [[Paper](https://arxiv.org/pdf/2104.07423.pdf)]
