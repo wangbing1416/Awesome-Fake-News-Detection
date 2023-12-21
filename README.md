@@ -17,6 +17,7 @@ Moreover, this is a personal list, if you have some additional literature, which
   - [Social Media-based FND](#social-media-based-fnd)
 - [Fact-check & Fact Verification](#fact-check--fact-verification)
   - [Supervised Methods](#supervised-methods)
+  - [Multi-hop Fact Verification](#multi-hop-fact-verification)
   - [Previously Fact-check](#previously-fact-check)
   - [New Datasets](#new-datasets)
 - [Rumor Detection](#rumor-detection)
@@ -141,6 +142,8 @@ Moreover, this is a personal list, if you have some additional literature, which
 - EMNLP 2021, <i>Students Who Study Together Learn Better: On the Importance of Collective Knowledge Distillation for Domain Transfer in Fact Verification</i> [[Paper](https://aclanthology.org/2021.emnlp-main.558.pdf?ref=https://githubhelp.com)]
 - NAACL 2021, <i>Towards Few-Shot Fact-Checking via Perplexity</i> [[Paper](https://arxiv.org/pdf/2103.09535.pdf)]
 - NAACL 2021, <i>How Robust are Fact Checking Systems on Colloquial Claims?</i> [[Paper](https://aclanthology.org/2021.naacl-main.121.pdf)]
+
+#### Multi-hop Fact Verification
 
 #### Previously Fact-check
 
