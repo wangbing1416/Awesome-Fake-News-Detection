@@ -2,7 +2,7 @@
 
 ## Fake News Detection
 
-An awesome paper list of **fake news detection (FND)** and **rumor detection** with ![](https://img.shields.io/badge/126-red) papers. FND methods are divided into context-based and social media-based methods.  
+An awesome paper list of **fake news detection (FND)** and **rumor detection** with ![](https://img.shields.io/badge/139-red) papers. FND methods are divided into context-based and social media-based methods.  
 Moreover, this is a personal list, if you have some additional literature, which need to be supplemented, you can feel free to drop an email (wangbing1416@gmail.com) to me!
 
 - [Fake News Detection](#fake-news-detection)
@@ -17,6 +17,7 @@ Moreover, this is a personal list, if you have some additional literature, which
   - [Social Media-based FND](#social-media-based-fnd)
 - [Fact-check & Fact Verification](#fact-check--fact-verification)
   - [Supervised Methods](#supervised-methods)
+  - [LLM Based Methods](#llm-based-methods)
   - [Multi-hop Fact Verification](#multi-hop-fact-verification)
   - [Previously Fact-check](#previously-fact-check)
   - [New Datasets](#new-datasets)
@@ -39,6 +40,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 #### Text-only Methods
 
 ##### Supervised Learning
+- AAAI 2024, <i>Bad Actor, Good Advisor: Exploring the Role of Large Language Models in Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2309.12247)]
 - ACL 2023, <i>Learn over Past, Evolve for Future: Forecasting Temporal Trends for Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2306.14728)]
 - ACL 2023, <i>Faking Fake News for Real Fake News Detection: Propaganda-loaded Training Data Generation</i> [[Paper](https://arxiv.org/pdf/2203.05386)]
 - ACL 2022, <i>Zoom Out and Observe: News Environment Perception for Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2203.10885.pdf)]
@@ -66,7 +68,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 - ACL 2021, <i>Compare to The Knowledge: Graph Neural Fake News Detection with External Knowledge</i> [[Paper](https://aclanthology.org/2021.acl-long.62.pdf)]
 
 ##### Machine-generated News Detection
-
+- ICLR 20224, <i>Can LLM-Generated Misinformation Be Detected?</i> [[Paper](https://openreview.net/pdf?id=ccxD4mtkTU)]
 - ACL 2022, <i>Automatic Detection of Entity-Manipulated Text Using Factual Knowledge</i> [[Paper](https://aclanthology.org/2022.acl-short.10.pdf)]
 - COLING 2022, <i>Threat Scenarios and Best Practices for Neural Fake News Detection</i> [[Paper](https://aclanthology.org/2022.coling-1.106.pdf)]
 - CL 2020, <i>The Limitations of Stylometry for Detecting Machine-Generated Fake News</i> [[Paper](https://watermark.silverchair.com/coli_a_00380.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAq4wggKqBgkqhkiG9w0BBwagggKbMIIClwIBADCCApAGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMxz9Xg1SndcEbQDYRAgEQgIICYezKOBSVkeblU0UiMgQBFTxwWxvVxyHMsoZNjebxXy_s7hVI8uyU1oxQJ0CFP1zIZd65qql15yVtv5CEq3RHl7TKSCYtFPWhMF4t-1jQaugAnyONxxeNuzPqHSrswxpjDG8HveRLQUiwoftHtfwjc0xUKG7pgHOpjXTWslc2XcQLv4HZ_krec_fLwygsTymj7jkzhn2v2aZdrpNXXzInEajuZA6bNeVhOfUmH2RaKMeRtrvVgXz6hiGn-zvZq2bcBWdHRueLpJY2vakrzJnQf42CghuRVvzxP2Hj-qfBfb08YnQI3lwmbERyn4GiKxAfQzyEoX_tkY8nqwpOm8t5wA-tTHW_AYKXQsoQMp1j2Q8wShdDRVQMnGyWLgxNR5WOJTgTvmcnr6D1tQTJhd_ilxUPCvNd8RnD4fU_7jWXeeEDtb5hQi45zKVUp9SropLnacTuOiQN4xY1saSH8EQCdNHJ79X9QZ2Ii7NGZrVm4ZCVcpN4DqHgR3WFeHPKZrTyT_6fluW-Mc69SpuIhu7nRLgavhAbyC8UAHS_Krk6vhch1GWIMPXeWyfo66jNJ_jZUUY8lEnoNfsfuyARpqb9x0IEseo_5WeHpR2SrQpWGlWxWBO8Twwi0nJgp9nlv4Ig7a4LAG66UXxRbzQs0kXENqOJM_qRVCIAKF_JDgKhXnk8Xoq15o-3fTdUeYlv-7mS_4XpA0f8l9nVRmq2GMwiNe41JuA1yV5nggN91T6bEC7mq9Vnc9x9B6uXji2tOT6TD7cmh-2XQl7CIbBvRfyLJpieHR0vFBydp9mnHXVuTT8v1Q)]
@@ -80,8 +82,12 @@ Moreover, this is a personal list, if you have some additional literature, which
 - CIKM 2021, <i>Integrating Pattern-and Fact-based Fake News Detection via Model Preference Learning</i> [[Paper](https://arxiv.org/pdf/2109.11333.pdf)]
 
 #### Multi-modal Methods
+- CVPR 2024, <i>SNIFFER: Multimodal Large Language Model for Explainable Out-of-Context Misinformation Detection</i> [[Paper](https://arxiv.org/pdf/2403.03170.pdf)]
+- Arxiv 2024, <i>FakeNewsGPT4: Advancing Multimodal Fake News Detection through Knowledge-Augmented LVLMs</i> [[Paper](https://arxiv.org/pdf/2403.01988.pdf)]
+- Arxiv 2024, <i>LEMMA: Towards LVLM-Enhanced Multimodal Misinformation Detection with External Knowledge Augmentation</i> [[Paper](https://arxiv.org/pdf/2402.11943.pdf)]
 - ACL 2023, <i>Two Heads Are Better Than One: Improving Fake News Video Detection by Correlating with Neighbors</i> [[Paper](https://arxiv.org/pdf/2306.05241)]
 - AAAI 2023, <i>FakeSV: A Multimodal Benchmark with Rich Social Context for Fake News Detection on Short Video Platforms</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/download/26689/26461)]
+- MM 2023, <i>Cross-modal Contrastive Learning for Multimodal Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3581783.3613850)]
 - MM 2023, <i>Combating Online Misinformation Videos: Characterization, Detection, and Future Directions</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3581783.3612426)]
 - ACL 2023, <i>Causal Intervention and Counterfactual Reasoning for Multi-modal Fake News Detection</i> [[Paper](https://aclanthology.org/2023.acl-long.37.pdf)]
 - AAAI 2023, <i>Bootstrapping Multi-view Representations for Fake News Detection</i> [[Paper](https://openreview.net/pdf?id=tS2AkSDLYZ)]
@@ -149,9 +155,20 @@ Moreover, this is a personal list, if you have some additional literature, which
 - NAACL 2021, <i>Towards Few-Shot Fact-Checking via Perplexity</i> [[Paper](https://arxiv.org/pdf/2103.09535.pdf)]
 - NAACL 2021, <i>How Robust are Fact Checking Systems on Colloquial Claims?</i> [[Paper](https://aclanthology.org/2021.naacl-main.121.pdf)]
 
+#### LLM Based Methods
+- TACL 2024, <i>JustiLM: Few-shot Justification Generation for Explainable Fact-Checking of Real-world Claims</i> [[Paper](https://arxiv.org/pdf/2401.08026.pdf)]
+- Arxiv 2024, <i>Can LLMs Produce Faithful Explanations For Fact-checking? Towards Faithful Explainable Fact-Checking via Multi-Agent Debate</i> [[Paper](https://arxiv.org/pdf/2402.07401)]
+- EMNLP Findings 2023, <i>Explainable Claim Verification via Knowledge-Grounded Reasoning with Large Language Models</i> [[Paper](https://aclanthology.org/2023.findings-emnlp.416.pdf)]
+- Arxiv 2023, <i>Are Large Language Models Good Fact Checkers: A Preliminary Study</i> [[Paper](https://arxiv.org/pdf/2311.17355)]
+
+#### Multimodal Methods
+- Arxiv 2024, <i>Multimodal Large Language Models to Support Real-World Fact-Checking</i> [[Paper](https://arxiv.org/pdf/2403.03627)]
+- MM 2023, <i>ECENet: Explainable and Context-Enhanced Network for Multi-modal Fact Verification</i> [[Paper](https://doi.org/10.1145/3581783.3612183)]
+
 #### Multi-hop Fact Verification
 - AAAI 2023, <i>Exploring Faithful Rationale for Multi-Hop Fact Verification via Salience-Aware Graph Learning</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/26591/26363)]
 - EMNLP 2023, <i>EXPLAIN, EDIT, GENERATE: Rationale-Sensitive Counterfactual Data Augmentation for Multi-hop Fact Verification</i> [[Paper](https://aclanthology.org/2023.emnlp-main.826.pdf)]
+- Arxiv 2023, <i>Consistent Multi-Granular Rationale Extraction for Explainable Multi-hop Fact Verification</i> [[Paper](https://arxiv.org/pdf/2305.09400)]
   
 #### Previously Fact-check
 
