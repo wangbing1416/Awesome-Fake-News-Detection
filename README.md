@@ -1,4 +1,4 @@
-![Fake News Detection](logo.png)
+![Fake News Detection](./logo.png)
 
 ## Awesome Fake News/Misinformation/Rumor Detection
 
