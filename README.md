@@ -315,6 +315,7 @@ Thanks for your interest in our repository. Our group has recently published sev
 - [Juan Cao](https://people.ucas.ac.cn/~caojuan), Institute of Computing Technology, Chinese Academy of Sciences
 - [Jing Ma](https://majingcuhk.github.io/), Department of Computer Science, Hong Kong Baptist University
 - [Huan Liu](https://www.public.asu.edu/~huanliu/), Ira A. Fulton Schools of Engineering, Arizona State University
-- [Kai Shu](http://www.cs.iit.edu/~kshu/index.html), Department of Computer Science, Illinois Institute of Technology
+- [Kai Shu](https://www.cs.emory.edu/~kshu5/), Department of Computer Science, Emory University
 - [Songlin Hu](https://people.ucas.edu.cn/~husonglin), Institute of Information Engineering, Chinese Academy of Sciences
-- [Linmei Hu](https://scholar.google.com/citations?user=OphdKw8AAAAJ&hl=zh-CN&oi=ao), Beijing Institute of Technology
+- [Linmei Hu](https://scholar.google.com/citations?user=OphdKw8AAAAJ), Beijing Institute of Technology
+- [Lianwei Wu](https://scholar.google.com/citations?user=ZVWnMrYAAAAJ), Northwestern Polytechnical University
