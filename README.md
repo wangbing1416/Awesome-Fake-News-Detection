@@ -11,6 +11,7 @@ Thanks for your interest in our repository. Our group has recently published sev
 🎉 Our paper "<i>Harmfully Manipulated Images Matter in Multimodal Misinformation Detection</i>" is accepted by **ACM MM 2024** [[Paper](https://dl.acm.org/doi/10.1145/3664647.3681322)]!  
 🎉 Our paper "<i>Escaping the Neutralization Effect of Modality Features Fusion in Multimodal Fake News Detection</i>" is accepted by **Information Fusion** [[Paper](https://www.sciencedirect.com/science/article/pii/S1566253524002781)]!  
 
+---
 
 - [Fake News Detection](#fake-news-detection)
   - [Context-based FND](#context-based-fnd)
