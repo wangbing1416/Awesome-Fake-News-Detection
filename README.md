@@ -2,8 +2,15 @@
 
 ## Fake News Detection
 
-An awesome paper list of **fake news detection (FND)** and **rumor detection** with ![](https://img.shields.io/badge/162-red) papers. FND methods are divided into context-based and social media-based methods.  
+An awesome paper list of **fake news detection (FND)** and **rumor detection** with ![](https://img.shields.io/badge/174-red) papers. FND methods are divided into context-based and social media-based methods.  
 Moreover, this is a personal list, if you have some additional literature, which need to be supplemented, you can feel free to drop an email (wangbing1416@gmail.com) to me!
+
+Thanks for your interest in our repository. Our group has recently published several articles in the fake news detection topic, and we welcome researchers and peers to follow and engage in discussions. More recent publications can be seen on my [[HomePage](https://wangbing1416.github.io)]!  
+🎉 Our paper "<i>Collaboration and Controversy Among Experts: Rumor Early Detection by Tuning a Comment Generator</i>" is accepted by **SIGIR 2025** [[Paper](https://arxiv.org/abs/2504.04076)]!  
+🎉 Our paper "<i>Why Misinformation is Created? Detecting them by Integrating Intent Features</i>" is accepted by **CIKM 2024** [[Paper](https://dl.acm.org/doi/10.1145/3627673.3679799)]!  
+🎉 Our paper "<i>Harmfully Manipulated Images Matter in Multimodal Misinformation Detection</i>" is accepted by **ACM MM 2024** [[Paper](https://dl.acm.org/doi/10.1145/3664647.3681322)]!  
+🎉 Our paper "<i>Escaping the Neutralization Effect of Modality Features Fusion in Multimodal Fake News Detection</i>" is accepted by **Information Fusion** [[Paper](https://www.sciencedirect.com/science/article/pii/S1566253524002781)]!  
+
 
 - [Fake News Detection](#fake-news-detection)
   - [Context-based FND](#context-based-fnd)
@@ -13,8 +20,8 @@ Moreover, this is a personal list, if you have some additional literature, which
       - [Knowledge base-based](#knowledge-base-based)
       - [Machine-generated News Detection](#machine-generated-news-detection)
     - [Evidence-aware Methods](#evidence-aware-methods)
-    - [Multi-modal Methods](#large-language-model-based-methods)
-    - [Large Language Model-based Methods](#multi-modal-methods)
+    - [Multi-modal Methods](#multi-modal-methods)
+    - [Large Language Model-based Methods](#large-language-model-based-methods)
   - [Social Media-based FND](#social-media-based-fnd)
 - [Fact-check & Fact Verification](#fact-check--fact-verification)
   - [Supervised Methods](#supervised-methods)
@@ -55,7 +62,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 **[ICCART 2019]** <i>Fake News Detection via NLP is Vulnerable to Adversarial Attacks</i> [[Paper](https://arxiv.org/ftp/arxiv/papers/1901/1901.09657.pdf)]  
 
 #### Domain Adaptation
-
+**[WWW 2025]** <i>A Macro- and Micro-Hierarchical Transfer Learning Framework for Cross-Domain Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2502.14403v1)]  
 **[COLING 2022]** <i>Improving Fake News Detection of Influential Domain via Domain-and Instance-Level Transfer</i> [[Paper](https://arxiv.org/pdf/2209.08902.pdf)]  
 **[WWW 2022]** <i>Domain Adaptive Fake News Detection via Reinforcement Learning</i> [[Paper](https://arxiv.org/pdf/2202.08159.pdf)]  
 **[TKDE 2022]** <i>Memory-Guided Multi-View Multi-Domain Fake News Detection</i> [[Paper](https://ieeexplore.ieee.org/document/9802916)]  
@@ -85,6 +92,11 @@ Moreover, this is a personal list, if you have some additional literature, which
 **[CIKM 2021]** <i>Integrating Pattern-and Fact-based Fake News Detection via Model Preference Learning</i> [[Paper](https://arxiv.org/pdf/2109.11333.pdf)]  
 
 ### Multi-modal Methods
+**[WWW 2025]** <i>Graph with Sequence: Broad-Range Semantic Modeling for Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2412.05672v2)]  
+**[WWW 2025]** <i>Multimodal Taylor Series Network For Misinformation Detection</i> [[Paper](https://openreview.net/pdf?id=Ay5XucNRSR)]  
+**[WWW 2025]** <i>Modality Interactive Mixture-of-Experts for Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2501.12431)]  
+**[EMNLP 2024]** <i>Image, Tell me your story!” Predicting the Original Meta-context of Visual Misinformation</i> [[Paper](https://aclanthology.org/2024.emnlp-main.448.pdf)]  
+**[EMNLP Findings 2024]** <i>Multimodal Misinformation Detection by Learning from Synthetic Data with Multimodal LLMs</i> [[Paper](https://aclanthology.org/2024.findings-emnlp.613.pdf)]  
 **[MM 2024]** <i>FKA-Owl: Advancing Multimodal Fake News Detection through Knowledge-Augmented LVLMs</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3664647.3681089)]  
 **[MM 2024]** <i>Mitigating Social Hazards: Early Detection of Fake News via Diffusion-Guided Propagation Path Generation</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3664647.3681087)]  
 **[MM 2024]** <i>Harmfully Manipulated Images Matter in Multimodal Misinformation Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3664647.3681322)]  
@@ -94,6 +106,7 @@ Moreover, this is a personal list, if you have some additional literature, which
 **[WWW 2024]** <i>MCFEND: A Multi-source Benchmark Dataset for Chinese Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3589334.3645385)]  
 **[ACL 2024]** <i>Event-Radar: Event-driven Multi-View Learning for Multimodal Fake News Detection</i> [[Paper](https://aclanthology.org/2024.acl-long.316.pdf)]  
 **[AAAI 2024]** <i>Unveiling Implicit Deceptive Patterns in Multi-Modal Fake News via Neuro-Symbolic Reasoning</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/28677/29315)]  
+**[AAAI 2024]** <i>Reinforced Adaptive Knowledge Learning for Multimodal Fake News Detection</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/29618/31048)]  
 **[CVPR 2024]** <i>SNIFFER: Multimodal Large Language Model for Explainable Out-of-Context Misinformation Detection</i> [[Paper](https://arxiv.org/pdf/2403.03170.pdf)]  
 **[Arxiv 2024]** <i>FakeNewsGPT4: Advancing Multimodal Fake News Detection through Knowledge-Augmented LVLMs</i> [[Paper](https://arxiv.org/pdf/2403.01988.pdf)]  
 **[Arxiv 2024]** <i>LEMMA: Towards LVLM-Enhanced Multimodal Misinformation Detection with External Knowledge Augmentation</i> [[Paper](https://arxiv.org/pdf/2402.11943.pdf)]  
@@ -124,6 +137,9 @@ Moreover, this is a personal list, if you have some additional literature, which
 **[KDD 2018]** <i>EANN: Event Adversarial Neural Networks for Multi-Modal Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3219819.3219903)]  
 
 ### Large Language Model-based Methods
+**[WWW 2025]** <i>Adversarial Style Augmentation via Large Language Model for Robust Fake News Detection</i> [[Paper](https://arxiv.org/pdf/2406.11260)]  
+**[KDD 2024]** <i>Fake News in Sheep’s Clothing: Robust Fake News Detection Against LLM-Empowered Style Attacks</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3637528.3671977)]  
+**[EMNLP 2024]** <i>On Fake News Detection with LLM Enhanced Semantics Mining</i> [[Paper](https://aclanthology.org/2024.emnlp-main.31.pdf)]  
 **[ACL Findings 2024]** <i>DELL: Generating Reactions and Explanations for LLM-Based Misinformation Detection</i> [[Paper](https://aclanthology.org/2024.findings-acl.155.pdf)]  
 **[WWW 2024]** <i>Explainable Fake News Detection With Large Language Model via Defense Among Competing Wisdom</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3589334.3645471)]  
 **[Arxiv 2024]** <i>Re-Search for The Truth: Multi-round Retrieval-augmented Large Language Models are Strong Fake News Detectors</i> [[Paper](https://arxiv.org/pdf/2403.09747)]  
@@ -134,7 +150,8 @@ Moreover, this is a personal list, if you have some additional literature, which
 ---
 
 ## Social Media-based FND
-
+**[WWW Short 2025]** <i>Unseen Fake News Detection Through Casual Debiasing</i> [[Paper](https://arxiv.org/pdf/2503.04160)]  
+**[WSDM 2025]** <i>Revisiting Fake News Detection: Towards Temporality-aware Evaluation by Leveraging Engagement Earliness</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3701551.3703524)]  
 **[AAAI 2023]** <i>HG-SL: Jointly Learning of Global and Local User Spreading Behavior for Fake News Early Detection</i> [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25655/25427)]  
 **[KDD 2023]** <i>DECOR: Degree-Corrected Social Graph Refinement for Fake News Detection</i> [[Paper](https://dl.acm.org/doi/pdf/10.1145/3580305.3599298)]  
 **[WWW 2023]** <i>Attacking Fake News Detectors via Manipulating News Social Engagement</i> [[Paper](https://arxiv.org/pdf/2302.07363)]  
