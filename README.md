@@ -195,6 +195,9 @@ Thanks for your interest in our repository. Our group has recently published sev
 **[NAACL 2021]** <i>How Robust are Fact Checking Systems on Colloquial Claims?</i> [[Paper](https://aclanthology.org/2021.naacl-main.121.pdf)]  
 
 ### LLM-based Methods
+**[WWW 2026]** <i>Debating Truth: Debate-driven Claim Verification with Multiple Large Language Model Agents</i> [[Paper](https://arxiv.org/abs/2507.19090)]  
+**[AAAI 2026]** <i>Fact2Fiction: Targeted Poisoning Attack to Agentic Fact-checking System</i> [[Paper](https://arxiv.org/abs/2508.06059)]  
+**[ICML 2025]** <i>DEFAME: Dynamic Evidence-based FAct-checking with Multimodal Experts</i> [[Paper](https://arxiv.org/abs/2412.10510)]  
 **[ACL 2024]** <i>Retrieval Augmented Fact Verification by Synthesizing Contrastive Arguments</i> [[Paper](https://arxiv.org/pdf/2406.09815)]  
 **[NAACL 2024]** <i>Complex Claim Verification with Evidence Retrieved in the Wild</i> [[Paper](https://arxiv.org/pdf/2305.11859)]  
 **[NAACL 2024]** <i>Language Models Hallucinate, but May Excel at Fact Verification</i> [[Paper](https://arxiv.org/pdf/2310.14564)]  
@@ -319,3 +322,4 @@ Thanks for your interest in our repository. Our group has recently published sev
 - [Songlin Hu](https://people.ucas.edu.cn/~husonglin), Institute of Information Engineering, Chinese Academy of Sciences
 - [Linmei Hu](https://scholar.google.com/citations?user=OphdKw8AAAAJ), Beijing Institute of Technology
 - [Lianwei Wu](https://scholar.google.com/citations?user=ZVWnMrYAAAAJ), Northwestern Polytechnical University
+
