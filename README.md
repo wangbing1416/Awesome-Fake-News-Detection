@@ -41,6 +41,7 @@ Thanks for your interest in our repository. Our group has recently published sev
 - [Summarizations of FND](#summarizations-of-fnd)
     - [Social Media-based Fake News Detection and Rumor Detection](#social-media-based-fake-news-detection-and-rumor-detection)
     - [Context-based Fake News Detection](#context-based-fake-news-detection)
+- [Tools & APIs](#tools--apis)
 - [Famous Chinese Researchers in FND](#famous-chinese-researchers-in-fnd)
 
 
@@ -311,6 +312,12 @@ Thanks for your interest in our repository. Our group has recently published sev
 7 **Robustness** -> adversarial attack  
 8 **Evidence-based FND**  
 9 **Multi-modal FND (ambiguity, alignment, emergency)**
+
+---
+
+## Tools & APIs
+
+**Helium** <i>Multi-dimensional bias scoring for news credibility and manipulation signals (15+ dimensions including political lean, emotionality, manipulativeness, and factfulness); 5,000+ tracked sources with outlet-level profiles; article-level analysis via URL; balanced synthesis across left/center/right perspectives</i> [[MCP server & REST API](https://heliumtrades.com/mcp-page/)]
 
 ---
 
